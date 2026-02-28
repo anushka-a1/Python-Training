@@ -1,3 +1,4 @@
+# An electricity board charges consumers based on units, Calculate total bill amount.
 units = int(input())
 if units <= 100:
     bill = units * 5
@@ -7,5 +8,6 @@ elif units <= 300:
 
 else:
     bill = (100 * 5) + (200 * 7) + (units - 300) * 10
+
 
 print(bill) 
